@@ -1,7 +1,7 @@
 #ifndef UNITY_POSTFX_SMAA_BRIDGE
 #define UNITY_POSTFX_SMAA_BRIDGE
 
-#include "Packages/com.unity.postprocessing/PostProcessing/Shaders/StdLib.hlsl"
+#include "../StdLib.hlsl"
 
 TEXTURE2D_SAMPLER2D(_MainTex, sampler_MainTex);
 TEXTURE2D_SAMPLER2D(_BlendTex, sampler_BlendTex);

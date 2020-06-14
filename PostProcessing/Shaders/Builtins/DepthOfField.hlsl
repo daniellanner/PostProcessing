@@ -1,8 +1,8 @@
 #ifndef UNITY_POSTFX_DEPTH_OF_FIELD
 #define UNITY_POSTFX_DEPTH_OF_FIELD
 
-#include "Packages/com.unity.postprocessing/PostProcessing/Shaders/StdLib.hlsl"
-#include "Packages/com.unity.postprocessing/PostProcessing/Shaders/Colors.hlsl"
+#include "../StdLib.hlsl"
+#include "../Colors.hlsl"
 #include "Packages/com.unity.postprocessing/PostProcessing/Shaders/builtins/DiskKernels.hlsl"
 
 TEXTURE2D_SAMPLER2D(_MainTex, sampler_MainTex);
