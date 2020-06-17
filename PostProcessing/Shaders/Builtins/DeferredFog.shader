@@ -4,7 +4,7 @@ Shader "Hidden/PostProcessing/DeferredFog"
 
         #pragma multi_compile __ FOG_LINEAR FOG_EXP FOG_EXP2
         #include "../StdLib.hlsl"
-        #include "Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Fog.hlsl"
+        #include "../Builtins/Fog.hlsl"
 
         TEXTURE2D_SAMPLER2D(_MainTex, sampler_MainTex);
         TEXTURE2D_SAMPLER2D(_CameraDepthTexture, sampler_CameraDepthTexture);

@@ -6,7 +6,7 @@ Shader "Hidden/PostProcessing/MultiScaleVO"
         #pragma target 4.5
 
         #include "../StdLib.hlsl"
-        #include "Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Fog.hlsl"
+        #include "../Builtins/Fog.hlsl"
 
         TEXTURE2D_SAMPLER2D(_CameraDepthTexture, sampler_CameraDepthTexture);
         TEXTURE2D_SAMPLER2D(_MSVOcclusionTexture, sampler_MSVOcclusionTexture);

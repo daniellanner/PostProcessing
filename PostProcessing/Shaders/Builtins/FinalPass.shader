@@ -10,7 +10,7 @@ Shader "Hidden/PostProcessing/FinalPass"
 
         #include "../StdLib.hlsl"
         #include "../Colors.hlsl"
-        #include "Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Dithering.hlsl"
+        #include "../Builtins/Dithering.hlsl"
 
         // PS3 and XBOX360 aren't supported in Unity anymore, only use the PC variant
         #define FXAA_PC 1

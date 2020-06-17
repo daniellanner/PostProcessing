@@ -19,9 +19,9 @@ Shader "Hidden/PostProcessing/Uber"
     
         #include "../StdLib.hlsl"
         #include "../Colors.hlsl"
-        #include "Packages/com.unity.postprocessing/PostProcessing/Shaders/Sampling.hlsl"
-        #include "Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Distortion.hlsl"
-        #include "Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Dithering.hlsl"
+        #include "../Sampling.hlsl"
+        #include "../Builtins/Distortion.hlsl"
+        #include "../Builtins/Dithering.hlsl"
 
         #define MAX_CHROMATIC_SAMPLES 16
 

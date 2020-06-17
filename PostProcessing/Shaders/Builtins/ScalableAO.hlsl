@@ -3,7 +3,7 @@
 
 #include "../StdLib.hlsl"
 #include "../Colors.hlsl"
-#include "Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Fog.hlsl"
+#include "../Builtins/Fog.hlsl"
 
 // --------
 // Options for further customization
