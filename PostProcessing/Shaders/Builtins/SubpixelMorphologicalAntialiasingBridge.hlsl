@@ -15,7 +15,7 @@ float4 _MainTex_TexelSize;
 #define LinearSampler sampler_MainTex
 #define PointSampler sampler_MainTex
 
-#include "Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasing.hlsl"
+#include "../Builtins/SubpixelMorphologicalAntialiasing.hlsl"
 
 // ----------------------------------------------------------------------------------------
 // Edge Detection
